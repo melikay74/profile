@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+section {
+    background-color: white;
+    /* margin-bottom: 20px; */
+    /* padding: 40px 0; */
+}
+
+h3,
+h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+hr {
+    margin: 0;
+}
+
+.container {
+    padding: 5px 15px;
+    /* box-shadow: 0px 0px 26px 0px; */
+}
+
+.success,
+.error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 30px 0;
+}
+
+header nav {
+    float: right;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+header a:hover {
+    color: lightslategray;
+}
+
+header p {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+footer a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+
+/**** HOME ****/
+
+#home .content {
+    display: flex;
+}
+
+#home .content h5 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#home .content div {
+    background-color: whitesmoke;
+    width: 33%;
+    border-radius: 10px;
+    margin: 0 25px 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#home .content div a {
+    text-decoration: none;
+    color: black;
+}
+
+#home .content a:hover {
+    color: gray;
+}
+
+#home ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#home li {
+    margin: 9px 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+
+/**** REACT: COMMENTS LIST ****/
+
+#react.comments .ui.button {
+    font-size:initial;
+    line-height: .5em;
+}
+
+#react.comments .ui.card>.content {
+    font-size:initial;
+}
+#react.comments .ui.comments .comment .metadata {
+    font-size:.775em;
+}
+
+/**** JOKES ****/
+
+.jokecontainer {
+    width: 50%;
+}
+
+#jokes .container .content {
+    display: flex;
+}
+
+
+/**** CHUCK NORRIS ****/
+
+.cn .container {
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 26px 0px;
+}
+
+.cn ol li:nth-child(even) {
+    color: maroon;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/**** PAST PROJECTS: ABCMOUSE ****/
+
+img {
+    width: 30%;
+    margin: 10px;
+}

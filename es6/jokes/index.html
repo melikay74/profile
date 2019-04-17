@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+</head>
+
+<body id="jokes">
+    <header>
+        <div class="container">
+            <h3><a href="/">Melissa DeMund</a></h3>
+            <h4>JavaScript Programmer, Front End Developer</h4>
+            <nav><a href="/">Home</a></nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h3>Joke Generator</h3>
+            <hr />
+            <div class="content">
+                <div class="jokecontainer">
+                    <h4>Random Jokes</h4>
+                    <form>
+                        <div>
+                            <label for="number">Number of Jokes</label>
+                            <input type="number" id="number" min="1">
+                        </div>
+                        <button id="getjokes">Get Jokes</button>
+                    </form>
+                </div>
+
+                <div class="jokecontainer">
+                    <h4>Jokes by Category</h4>
+                    <button id="gj-cn">Chuck Norris</button>
+                    <button id="gj-sci">Science</button>
+                    <button id="gj-dad">Dad</button>
+                    <button id="gj-tech">Tech</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <ol class="jokes">
+
+            </ol>
+            <p class="message"></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">Contact: <a href="mailto:melissa.demund@gmail.com">melissa.demund@gmail.com</a></div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
